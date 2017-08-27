@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/background.jpeg");
+    font-family: 'Roboto';
+    background-color: #033250;
+}
+
+
+div{
+    color: #fff;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 35px;
+}
