@@ -20,3 +20,6 @@ div{
     margin-top: 100px;
     line-height: 35px;
 }
+.flex-container {
+    display: flex;
+}
