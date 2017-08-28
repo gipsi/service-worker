@@ -1,2 +1,2 @@
 # gipsi.github.io
-A site to play around with Web Service Workers
+A site to play around with a Web Service Worker
