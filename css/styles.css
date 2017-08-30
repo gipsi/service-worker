@@ -7,7 +7,7 @@
 body{
     background-image: url("../images/background.jpg");
     background-size: cover;
-    font-family: 'Roboto';
+    font-family: 'Verdana', 'Geneva', Sans-serif;
     background-color: #033250;
     background-repeat: no-repeat;
     background-attachment: fixed;
