@@ -6,7 +6,7 @@
   "short_name": "gipsi",
   "description": "A gipsi test page for a Service-worker and Progressive Web App",
   "lang": "en-GB",
-  "start_url": "/",
+  "start_url": "https:gipsi.github.io",
   "scope": "/",
   "display": "standalone",
   "theme_color": "#FEE500",
@@ -40,7 +40,7 @@
       "src": "/icons/android-icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
-    }
+    },
   
 
   {
