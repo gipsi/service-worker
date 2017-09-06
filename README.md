@@ -1,2 +1,2 @@
 # gipsi.github.io
-A site to play around with a Web Service Worker
+First attempt at making a landing page available offline with a Web Service Worker.
