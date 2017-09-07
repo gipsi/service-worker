@@ -3,7 +3,7 @@ importScripts('js/cache-polyfill.js');
 var CACHE_VERSION = 'app-v1';
 var CACHE_FILES = [
     '/',
-    'images/background.jpeg',
+    'images/background.jpg',
     'js/app.js',
     'css/styles.css',
     'https://fonts.googleapis.com/css?family=Roboto:100'
@@ -27,9 +27,9 @@ self.addEventListener('activate', function (event) {
                 if(key !== CACHE_VERSION){
                     return caches.delete(keys[i]);
                 }
-            }))
+            }));
         })
-    )
+    );
 });
 
 self.addEventListener('fetch', function (event) {
@@ -40,7 +40,7 @@ self.addEventListener('fetch', function (event) {
             }
             requestBackend(event);
         })
-    )
+    );
 });
 
 function requestBackend(event){
@@ -58,5 +58,5 @@ function requestBackend(event){
         });
 
         return res;
-    })
+    });
 }
