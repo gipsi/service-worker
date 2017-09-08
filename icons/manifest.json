@@ -4,7 +4,7 @@
 	
   "name": " gipsi.github.io",
   "short_name": "gipsi",
-  "description": "A gipsi test page for a Service-worker and Progressive Web App",
+  "description": "Service-worker test page",
   "lang": "en-GB",
   "start_url": "https:gipsi.github.io",
   "scope": "/",
