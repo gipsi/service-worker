@@ -6,7 +6,8 @@ var CACHE_FILES = [
     'images/background.jpg',
     'js/app.js',
     'css/styles.css',
-    'https://fonts.googleapis.com/css?family=Roboto:100'
+    'https://fonts.googleapis.com/css?family=Roboto:100',
+    'index.html'
 ];
 
 
