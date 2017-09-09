@@ -3,7 +3,7 @@
     "short_name": "gipsi",
     "description": "Service-worker test page",
     "lang": "en-GB",
-    "start_url": "https:gipsi.github.io",
+    "start_url": "index.html",
     "scope": "/",
     "display": "standalone",
     "theme_color": "#FEE500",
