@@ -1,32 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!doctype HTML>
+<html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#FEE500"/>
-	
-    <title>Bemused Unicorn</title>
-	
-    <link rel="manifest" href="/manifest.json">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
- <!--   <link rel="stylesheet" href="css/styles.css"> -->
-    
+<title>Bemused Unicorn</title>
 <style>
-  body {
+body {
   color: maroon;
   background: orange fixed;
-  background-image:url("service-worker.jpg");
-}
-	
-  #grid {
-  display: grid;
-  height: 200px;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  grid-gap: 20px 5px;
-}
-
-#grid > div {
-  background-color: rgb(255,215,0, .5);
+  background-image:url("Service_worker.jpg");
 }
 
 h1 {
@@ -37,110 +17,131 @@ p {
   background-color: rgb(137, 224, 160);
   background-color: rgba(180, 246, 248, .43);
   font-weight: bold;
-  
+ }   
+ nav {
+   background-color: rgb(137, 224, 160);
+   background-color: rgba(180, 246, 248, .43);
+   font-weight: bold;
+}   
 </style>
-	
+
 </head>
-	
 <body>
-	
-<div id="grid">
-  <div>	  
-    <header>
-	    
-	    <h2>View Source Code on <a href="https://github.com/gipsi/gipsi.github.io?files=1">GitHub</a>
-      <h1><img src="bemusedunicorn.jpg" alt="Bemused Unicorn"/></h1>
-        <nav>
-          <li><a href="#content">Content</a></li>
-          <li><a href="#details">Details</a></li>
-          <li><a href="#tools">Tools</a></li>
-          <li><a href="#patterns">Patterns</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#progress">Progress</a></li>
-          </nav>
-    </header>
-    </div>
-	  
-    <div>
-      <article id="content">
-        <h1>Content</h1>
-          <p>
-            This an exercise in coding a web page from scratch offline on my <i>smart</i> phone.
-            Content first then focus, details and progressive enhancement.
-          </p>
-      </article>
-    </div>
-	
-    <div>
-      <article id="details">
-        <h1>Details</h1>
-          <p>
-             Semantic HTML, some CSS styling and touch of JavaScript functionality..
-          </p>
-	
-          <p>A first attempt at coding and implementing a Web Service Worker to make my 
-		  <a href="http://gipsi.itbit.me/PWA/index.html">blog</a> available in the browser when offline.
-          </p>
-      </article>
-    </div>
-	
-    <div>
-      <article id="tools">
-        <h1>Tools</h1>
-          <p>
-             Android phone with camera.  Cyanogen mod operating system.  AnWriter code editor app. 
-             Photoeditor app.  ES file explorer.
-             UB reader, Adaptive Web Design, eBook by Aaron Gustafson.  CSS Guidelines, Web app by 
-             Harry Roberts.
-          </p>
-      </article>
-    </div>
-	
-    <div>
-      <article id="patterns">
-        <h1>Patterns</h1>
-            <p>
-               learn the patterns.  Everywhere patterns.
-            </p>
-      </article>
-    </div>
-	
-    <div>
-      <article id="process">
-        <h1>Process</h1>
-          <p>
-             Write the code. Remember "Separation of concerns" quote of Dijksta. Focus on a small
-             thing, make that nicely. Remember 80 characters wide so it's not too wide to read,
-          <i>CSS Guidelines.</i> <!-- That's still a bit wide on this phone! -->
-	  </p> 
-      </article>
-    </div>
-	
-    <div>
-      <article id="progress">
-        <h1>Progress</h1>
-            <p>
-            <i>Up next ... </i> Enhancement.
-            </p>
-      </article>
-    </div>
-	
-    <div>
-      <blockquote>
-        <p>
-           Service workers essentially act as proxy servers that sit between web applications, and the
-           browser and network (when available). They are intended to (amongst other things) enable the creation of effective offline experiences, intercepting network requests and taking appropriate action based on whether the network is available and updated assets reside on the server. They will also allow access to push notifications and background sync APIs. Service Worker API, MDN web docs
-        </p>
-      </blockquote>
-    </div>
-	
-    <div>
-      <footer>
-        <p id="copyright">&copy;2017 Gipsi. All Rights Reserved.</p>
-        <p>Bemused Unicorn is a <a rel="me" href="http://gipsi.itbit.me">gipsi.itbit.me</a> project.</p>
-      </footer>  
-    </div>	    
-</div>
+<header>
+<h1>Bemused Unicorn</h1>
+<h2>gipsi.github.io</h2>
+<h1><img src="white_pony.png.jpg" alt="White pony"/></h1>
+
+<blockquote>
+<p>
+Probably the best thing that designers and developers could do
+is to procure the slowest, secondhand, scratched-up Android device
+you can find.  Load as many bubble games onto it as you can.  Drop it on
+the ground and kick it around a bit.  Run the battery down to 18 per cent,
+buy 200MB of prepaid data on the worst network available, go out into the
+woods, and see how your app or website performs under those conditions. 
+<br>
+from an article by Ally Long in net magazine, issue 299, November 2017
+</p>
+</blockquote>
+
+<p>As I learn web design and development through tutorials, courses and books - 
+html5, css3, JavaScript, mobile app development, adaptive and responsive web design,
+I keep in mind how frustrating, expensive and unreliable web connectivity
+can be for many people, even as becomes increasingly important to aquire
+some tech savvy.</p>
+<nav>
+  <li><a href="#content">Content</a></li>
+  <li><a href="#details">Details</a></li>
+  <li><a href="#tools">Tools</a></li>
+  <li><a href="#patterns">Patterns</a></li>
+  <li><a href="#process">Process</a></li>
+  <li><a href="#progress">Progress</a></li>
+  </nav>
+</header>
+
+
+    <article id="content">
+    
+      <h1>Content</h1>
+    
+      <p>
+      This an exercise in coding a web page from scratch offline on my <i>smart</i> Android phone. Content first then focus, details and progressive enhancement.
+      </p>
+    </article>
+    <article id="details">
+    
+    <h1>Details</h1>
+    <p>
+    Semantic HTML, some CSS styling and touch of JavaScript functionality..
+    </p>
+    <p>A first attempt at coding and implementing a Web Service Worker to make my blog available in the browser when offline.
+    </p>
+    </article>
+    
+    <article id="tools">
+    
+    <h1>Tools</h1>
+    <p>
+    Android phone with camera.  Cyanogen mod operating system.  AnWriter code editor app. Photoeditor app.  ES file explorer.
+    UB reader, Adaptive Web Design, eBook by Aaron Gustafson.  CSS Guidelines, Web app by Harry Roberts.
+    </p>
+    </article>
+    
+    <article id="patterns">
+    
+    <h1>Patterns</h1>
+    <p>
+    Learn the patterns.  Everywhere patterns.
+    </p>
+    
+    <ul>
+    <li><p>listening</p></li>
+    <li><p>learning</p></li>
+    <li><p>communicating</p></li>
+    <li><p>time-managing</p></li>
+    <li><p>problem solving</p></li>
+    <li><p>having ideas</p></li>
+    <li><p>visual thinking</p> </li>
+    <li><p>listening to music</p></li>
+    </ul>
+    
+    </article>
+    
+    <article id="process">
+    
+    <h1>Process</h1>
+    
+    <p>
+    
+    <p>
+    
+    <p>
+    Write the code. Remember "Separation of concerns" quote of Dijksta, focus on a small
+    ting (slip), make that nicely. Remember 80 characters wide so it's not too wide to read,
+    <i>CSS Guidelines.</i> <!-- That's still a bit wide on this phone! -->
+    Also think some more about comments in code.
+    </p>
+    </article>
+    
+    <article id="progress">
+    
+    <h1>Progress</h1>
+    <p>
+   <i>Up next ... </i> Enhancement.
+    </p>
+    </article>
+    
+ 
+ <blockquote>
+ <p>
+    Service workers essentially act as proxy servers that sit between web applications, and the browser and network (when available). They are intended to (amongst other things) enable the creation of effective offline experiences, intercepting network requests and taking appropriate action based on whether the network is available and updated assets reside on the server. They will also allow access to push notifications and background sync APIs. Service Worker API, MDN web docs
+ </p>
+ </blockquote>
+ 
+<footer>
+  <p id="copyright">&copy;2017 Gipsi. All Rights Reserved.</p>
+  <p>Bemused Unicorn is a <a rel="me" href="http://gipsi.itbit.me">gipsi.itbit.me</a> project.</p>
+</footer>
 </body>
-<script src="js/app.js"></script>
 </html>
