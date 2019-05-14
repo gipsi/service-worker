@@ -1,4 +1,5 @@
-{
+
+/*{
     "name": " gipsi.github.io",
     "short_name": "gipsi",
     "description": "Service-worker test page",
@@ -77,3 +78,21 @@
         }
     ]
 }
+*/
+
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "Bemused Unicorn",
+    "scope" : "/",
+    "display" : "browser",
+    "start_url" : "https://elastic-wiles-5b6f00.netlify.com/",
+    "short_name" : "Bemused Unicorn",
+    "theme_color" : "transparent",
+    "description" : "",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [
+    ]}
