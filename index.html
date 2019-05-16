@@ -8,22 +8,8 @@
 
   <title>Bemused Unicorn</title>
   
-    <link rel="manifest" href="/manifest.json">
-    <link rel="service-worker" href="/service-worker.js">
-  
-  <script>
-    // CODELAB: Register service worker.
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js')
-        .then((reg) => {
-          console.log('Service worker registered.', reg);
-        });
-  });
-}
-  </script>
-
-  
+  <link rel="manifest" href="/manifest.json">
+ 
   <style>
  
     body, h1, p, nav {
@@ -35,12 +21,13 @@ if ('serviceWorker' in navigator) {
    /* h1 {
       color: lavender; 
       }
+	  
    
     p {
       background-color: rgb(137, 224, 160);
       background-color: rgba(180, 246, 248, .43);
       font-weight: bold;
-      white-space: nowrap;
+	        white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       max-width: 200px;
@@ -70,8 +57,7 @@ a:hover {
 a:active {
   color: lightgreen;
 } 
-    
-    div {
+div {
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -221,13 +207,11 @@ a:active {
   </blockquote>
  
   <footer>
-    <h3>More happenings at <a href="https://gipsi.github.io/">gipsi.github.io</a> weblog</h2>
-    <p>Bemused Unicorn is a <a rel="me" href="http://gipsi.itbit.me">gipsi.itbit.me</a> project.</p>
     <p id="copyright">gipsi  ♻️ 2017 </p>
+    <p>Bemused Unicorn is a <a rel="me" href="http://gipsi.itbit.me">gipsi.itbit.me</a> project.</p>
+    <h3>More happenings at <a href="https://gipsi.github.io/">gipsi.github.io</a> weblog</h2>
   </footer>
-  </div>
+ </div>
 </body> 
-
-
-
+ 
 </html>
